@@ -9,7 +9,14 @@ To keep up with my dotfiles.
 curl -Lks https://gist.github.com/Emiller88/20d1dd7a08b165c2ba583697cd92b9bd | /bin/bash
 ```
 
+or
+
+```
+sh install.sh
+```
+
 Which calls this:
+
 ```  
   git clone --bare https://github.com/Emiller88/Kevin-dotfiles.git $HOME/.cfg
  function config {
